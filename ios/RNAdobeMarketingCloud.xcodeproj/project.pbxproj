@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C14F9F1F5F3DF900017245 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C14F9E1F5F3DF600017245 /* AdobeMobileLibrary.a */; };
+		A8EB2B641F589754007E05DB /* RNAdobeMarketingCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB2B631F589754007E05DB /* RNAdobeMarketingCloud.m */; };
+		A8EB2B651F589754007E05DB /* RNAdobeMarketingCloud.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8EB2B621F589754007E05DB /* RNAdobeMarketingCloud.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8EB2B5D1F589754007E05DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A8EB2B651F589754007E05DB /* RNAdobeMarketingCloud.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A8C14F9D1F5F3DE800017245 /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
+		A8C14F9E1F5F3DF600017245 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
+		A8EB2B5F1F589754007E05DB /* libRNAdobeMarketingCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAdobeMarketingCloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EB2B621F589754007E05DB /* RNAdobeMarketingCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAdobeMarketingCloud.h; sourceTree = "<group>"; };
+		A8EB2B631F589754007E05DB /* RNAdobeMarketingCloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAdobeMarketingCloud.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8EB2B5C1F589754007E05DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C14F9F1F5F3DF900017245 /* AdobeMobileLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8EB2B561F589754007E05DB = {
+			isa = PBXGroup;
+			children = (
+				A8C14F9E1F5F3DF600017245 /* AdobeMobileLibrary.a */,
+				A8C14F9D1F5F3DE800017245 /* ADBMobile.h */,
+				A8EB2B621F589754007E05DB /* RNAdobeMarketingCloud.h */,
+				A8EB2B631F589754007E05DB /* RNAdobeMarketingCloud.m */,
+				A8EB2B601F589754007E05DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8EB2B601F589754007E05DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB2B5F1F589754007E05DB /* libRNAdobeMarketingCloud.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8EB2B5E1F589754007E05DB /* RNAdobeMarketingCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EB2B681F589754007E05DB /* Build configuration list for PBXNativeTarget "RNAdobeMarketingCloud" */;
+			buildPhases = (
+				A8EB2B5B1F589754007E05DB /* Sources */,
+				A8EB2B5C1F589754007E05DB /* Frameworks */,
+				A8EB2B5D1F589754007E05DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAdobeMarketingCloud;
+			productName = RNAdobeMarketingCloud;
+			productReference = A8EB2B5F1F589754007E05DB /* libRNAdobeMarketingCloud.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8EB2B571F589754007E05DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Branding Brand";
+				TargetAttributes = {
+					A8EB2B5E1F589754007E05DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M8P76H2RNY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8EB2B5A1F589754007E05DB /* Build configuration list for PBXProject "RNAdobeMarketingCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8EB2B561F589754007E05DB;
+			productRefGroup = A8EB2B601F589754007E05DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8EB2B5E1F589754007E05DB /* RNAdobeMarketingCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8EB2B5B1F589754007E05DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EB2B641F589754007E05DB /* RNAdobeMarketingCloud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8EB2B661F589754007E05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8EB2B671F589754007E05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8EB2B691F589754007E05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8EB2B6A1F589754007E05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8EB2B5A1F589754007E05DB /* Build configuration list for PBXProject "RNAdobeMarketingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EB2B661F589754007E05DB /* Debug */,
+				A8EB2B671F589754007E05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EB2B681F589754007E05DB /* Build configuration list for PBXNativeTarget "RNAdobeMarketingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EB2B691F589754007E05DB /* Debug */,
+				A8EB2B6A1F589754007E05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8EB2B571F589754007E05DB /* Project object */;
+}
